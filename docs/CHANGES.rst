@@ -4,6 +4,10 @@ Changelog
 1.1b6 (unreleased)
 ------------------
 
+- Do a ``IRichText`` text indexing on all registered SearchableText indexers by
+  doing it as part of the base ``SearchableText`` function.
+  [thet]
+
 - Do not raise errors when IPrimaryFieldInfo(obj) fails (e.g. when the
   Schema-Cache is gone).
   Fixes https://github.com/plone/Products.CMFPlone/issues/839
